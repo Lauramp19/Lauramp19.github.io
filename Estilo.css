@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    background-color:white;
+    color:;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logotipo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  margin-left: 5%;
+}
+
+#menu {
+    float:right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 10px;
+    color:black;
+}
+
+#decoracao {
+    color:black;
+    font-family: helvetica;
+    font-weight:bol;
+}
+
+a {
+    text-decoration: none;
+    font-family: courier;
+}
+li {
+    float: left;
+    padding: 13 10 13 10;
+}
+li:hover {
+    background-color: #57e3cd;
+}
+#t1 {
+    color: white;
+    text-shadow:black -1px 2px;
+    font-family: courier;
+    font-size: 50px;
+}
+#p1 {
+    text-align: center;
+    color:white;
+    font-family: courier;
+    text-shadow: black -1px 2px;
+}
+#t2 {
+    color: white;
+    text-shadow: -1px 3px black;
+    font-family: courier,arial,helvetica;
+    font-size: 40px;
+}
+#imagemdefundo {
+    background: #ffb52b;
+    padding: 100px;
+    background-size: cover;
+    text-align: center;
+}
+#SaibaMais {
+    color: black;
+    background: white;
+    border: 1px white solid;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin-left: 13px;
+    font-family: courier;
+}
+a:hover {
+ background: ;
+
+
+}
+.ícone {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#projeto {
+    background: whitesmoke;
+    padding: 90px;
+    background-size: cover;
+}
+#parte2 {
+    background: url("Sea\ Blizz.jpg");
+    padding: 90px;
+    background-size: cover;
+
+    
+    }
+#vídeo {
+    float: left;
+    padding: 0 8%;
+    position: relative;
+    width: 40%;
+}
+#título {
+    margin-top: 30;
+    text-align: center;
+    color:black;
+    font-family: courier;
+    
+}
+#tamanho1 {
+    font-size: 20px;
+    font-family: courier;
+    text-align: center;
+}
+#objetivos {
+    margin-top: 30;
+    text-align: center;
+    color:  white;
+    font-family: courier;
+    text-shadow: #000 -1px 1px;
+}
+#categorias {
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 0 black;
+    font-family: courier,arial,helvetica;
+}
+#explicacoes {
+    text-align: center;
+    font-family: courier;
+    color:black;
+}
+.creditos {
+    color: black;
+    font-family: courier;
+    font-weight: bold;
+}
+footer {
+    background-color: #eb7c74;
+    padding: 10px;
+    background-size: cover;
+}
+.poesia {
+    text-align: center;
+    font-family: courier;
+}
+#títulopoesia {
+    margin-top: 10;
+    text-align: center;
+    color:black;
+    font-family: courier;
+}
+#credito {
+    color: white;
+    text-shadow: 0 2px 0 black;
+    font-family: courier,arial,helvetica;
+
+}
+#desenvolvimento {
+    font-family: courier;
+    color:black;
+    font-weight: bold;
+}
+#fonte {
+    color: white;
+    text-shadow: 0 2px 0 black;
+    font-family: courier,arial,helvetica;
+}
+p {
+    font-family: courier;
+}
+#c {
+    font-family: courier;
+}
+#i {
+    font-weight: bold;
+}
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, #vídeo { 
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logotipo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+
+}
